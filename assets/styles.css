@@ -1,0 +1,9 @@
+.center { 
+    margin: auto;
+     width: 60%;
+      height: 20%;
+       text-align: center;
+        padding: 10px; 
+        display: grid; 
+        grid-template-columns: 600px 600px 600px; 
+    }
