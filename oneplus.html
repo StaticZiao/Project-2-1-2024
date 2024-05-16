@@ -13,6 +13,33 @@
   <link rel="stylesheet" href="assets/styles.css">
 </html>
 
+<!-- Javascript Clock -->
+<body onload="startTime()">
+  
+  <div id="txt"></div>
+  
+  <script>
+  function startTime() {
+    const today = new Date();
+    let h = today.getHours();
+    let m = today.getMinutes();
+    let s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
+    setTimeout(startTime, 1000);
+  }
+  
+  function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+  }
+  </script>
+  
+  </body>
+  <!-- End of javascript clock-->
+
+<!-- Start of Nav Bar here -->
 </nav>
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
@@ -46,11 +73,17 @@
                     <a class="nav-link active" href="oneplus.html" role="button" data-bs-toggle="" aria-expanded="false">
                       Oneplus
                       </a>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="contactus.html" role="button" data-bs-toggle="" aria-expanded="false">
+                          Contact Us
+                          </a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
+
+  <!-- These are cards with images and buttons that lead you to other pages and this is the start -->
   <div class="card" style="width: 18rem;">
     <img src="assets/Nothing/phone1.png" class="card-img-top" alt="...">
     <div class="card-body">
@@ -75,13 +108,15 @@
       <a href="https://nothing.tech/pages/phone-2a" class="btn btn-primary">Buy</a>
       <a href="https://www.gsmarena.com/nothing_phone_(2a)-12760.php" class="btn btn-primary">Specs</a>
     </div>
+<!-- This is the end of the cards -->
 
-
+<!-- These are embedded videos from youtube and this is the start-->
   <div class="">
     <iframe width="450" height="450" src="https://www.youtube.com/embed/YWV2XjoRKhk?si=O31V2cE32jfOj3NN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <iframe width="450" height="450" src="https://www.youtube.com/embed/oieVN1CLOaw?si=GTOAR1s1ZmUSqPdH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <iframe width="450" height="450" src="https://www.youtube.com/embed/3fI0b0eYxFQ?si=8fMyp1BLzIgg_sYG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   </div>
+<!-- This is the end of the embedded videos-->
 
 
 

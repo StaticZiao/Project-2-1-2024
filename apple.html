@@ -13,6 +13,33 @@
   <link rel="stylesheet" href="assets/styles.css">
 </html>
 
+<!-- Javascript Clock -->
+<body onload="startTime()">
+  
+  <div id="txt"></div>
+  
+  <script>
+  function startTime() {
+    const today = new Date();
+    let h = today.getHours();
+    let m = today.getMinutes();
+    let s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
+    setTimeout(startTime, 1000);
+  }
+  
+  function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+  }
+  </script>
+  
+  </body>
+  <!-- End of javascript clock-->
+
+<!-- Start of Nav Bar here -->
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">iPhone |</a>
@@ -45,17 +72,23 @@
                     <a class="nav-link active" href="oneplus.html" role="button" data-bs-toggle="" aria-expanded="false">
                       Oneplus
                       </a>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="contactus.html" role="button" data-bs-toggle="" aria-expanded="false">
+                          Contact Us
+                          </a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
+
+  <!-- These are cards with images and buttons that lead you to other pages and this is the start -->
   <div class="card" style="width: 18rem;">
     <img src="assets/iPhone/iphone15pro.png" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">iPhone 15 Pro</h5>
       <p class="card-text">Pure Instinct.</p>
-      <a href="https://www.apple.com/uk/shop/buy-iphone/iphone-15-pro" class="btn btn-primary">Buy</a>
+      <a href="https://www.apple.com/uk/shop/buy-iphone/iphone-15-pro" class="btn btn-primary">Buy | £999.00</a>
       <a href="https://www.apple.com/uk/iphone-15-pro/specs/" class="btn btn-primary">Specs</a>
     </div>
   <div class="card" style="width: 18rem;">
@@ -63,7 +96,7 @@
     <div class="card-body">
       <h5 class="card-title">iPhone 15</h5>
       <p class="card-text">Pure Instinct.</p>
-      <a href="https://www.apple.com/uk/shop/buy-iphone/iphone-15" class="btn btn-primary">Buy</a>
+      <a href="https://www.apple.com/uk/shop/buy-iphone/iphone-15" class="btn btn-primary">Buy | £799.00</a>
       <a href="https://www.apple.com/uk/iphone-15/specs/" class="btn btn-primary">Specs</a>
     </div>
   <div class="card" style="width: 18rem;">
@@ -71,16 +104,17 @@
     <div class="card-body">
       <h5 class="card-title">iPhone 14 Pro</h5>
       <p class="card-text">Pure Instinct.</p>
-      <a href="https://www.apple.com/uk/shop/buy-iphone/iphone-14" class="btn btn-primary">Buy</a>
+      <a href="https://www.apple.com/uk/shop/buy-iphone/iphone-14" class="btn btn-primary">Buy | £699.00</a>
       <a href="https://support.apple.com/en-gb/111849" class="btn btn-primary">Specs</a>
     </div>
+<!-- This is the end of the cards -->
 
-
+<!-- These are embedded videos from youtube and this is the start-->
   <div class="">
     <iframe width="350" height="250" src="https://www.youtube.com/embed/w_JEezynhrc?si=GpErn49cQ_N1Ao1r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     <iframe width="350" height="250" src="https://www.youtube.com/embed/XHTrLYShBRQ?si=hO9rlyf8hZQrRLht" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     <iframe width="350" height="250" src="https://www.youtube.com/embed/FT3ODSg1GFE?si=DskzW-jU4IMfPVXf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+<!-- This is the end of the embedded videos-->
 
 
 
