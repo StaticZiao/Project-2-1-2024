@@ -79,3 +79,13 @@ In my opinion the creator could change the design of each pages so it is not the
 |    |                                     |                                |                |   |
 
 ### Evaluate
+
+| Id | Instructions                        | Expected Outcome               | Actual Outcome |   |
+
+|----|-------------------------------------|--------------------------------|----------------|---|
+
+|    |                                     |                                |                |   |
+
+| 4  | Click on icon labelled B in diagram | Video should play in new frame | As expected    |   |
+
+|    |                                     |                                |                |   |
