@@ -68,10 +68,14 @@ In my opinion the creator could change the design of each pages so it is not the
 ### Build
 
 ### Test
-+ Check if images are the correct size(Images load/Needs Work Fixing Size)
-+ Check if embeded videos load(Works)
-+ Check if you can go back to the home page (Needs Work/Does not function)
-+ Check if navigation works (Partial cannot go back home)
-+ Check if forms work(Not Started/Tested)
+| Id | Instructions                        | Expected Outcome               | Actual Outcome |   |
+
+|----|-------------------------------------|--------------------------------|----------------|---|
+
+|    |                                     |                                |                |   |
+
+| 4  | Click on icon labelled B in diagram | Video should play in new frame | As expected    |   |
+
+|    |                                     |                                |                |   |
 
 ### Evaluate
