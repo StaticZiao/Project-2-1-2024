@@ -74,8 +74,8 @@ In my opinion the creator could change the design of each pages so it is not the
 |----|-------------------------------------|--------------------------------|----------------|---|
 |  1 | Check if all buttons lead to a page or external website| The buttons lead to the correct websites and pages| Works as expected|   |
 |  2 | Click play on Youtube Embedded videos | Videos should play in the windows| Loads as expected    |   |
-|  3 | Does the Mobile format of the site functions properly| Contents of the page should adapt to be smaller along with the nav bar size collapsing into a 3 lined drop down button| Functions as expected               |   |
-|  4 |Check if the images Load correctly                    |   The images on all pages should load correctly   |                |   |
+|  3 | Does the Mobile format of the site functions correctly| Contents of the page should adapt to be smaller along with the nav bar size collapsing into a 3 lined drop down button| Functions as expected               |   |
+|  4 |Check if the images Load correctly                    |   The images on all pages should load correctly   |   Functions as expected             |   |
 |  5 |                                     |                                |                |   |
 
 ### Evaluate
