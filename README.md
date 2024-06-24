@@ -67,7 +67,15 @@ In my opinion the creator could change the design of each pages so it is not the
 
 ### Build
 
-### Test
+### Test     
 
+
+| Id | Instructions                        | Expected Outcome               | Actual Outcome |   |
+|----|-------------------------------------|--------------------------------|----------------|---|
+|  1 | Check if all buttons lead to a page or external website|                                |                |   |
+|  2 | Click play on Youtube Embedded videos | Video should play in the windows| Loads as expected    |   |
+|  3 |                                     |                                |                |   |
+|  4 |                                     |                                |                |   |
+|  5 |                                     |                                |                |   |
 
 ### Evaluate
