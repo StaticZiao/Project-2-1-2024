@@ -63,7 +63,7 @@ In my opinion the creator could change the design of each pages so it is not the
 
 
 #### Justification
-#### Test Plan
+#### Test/Test Plan
 
 | Id | Instructions                        | Expected Outcome               | Actual Outcome |   |
 |----|-------------------------------------|--------------------------------|----------------|---|
