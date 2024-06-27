@@ -1,13 +1,11 @@
-﻿> Suggested skeleton for U13 documentation
-
-# Unit 13
+﻿# Unit 13
 
 ## Assignment 2 - Documentation
 
 ### Specify
 #### Client Requirements
 + The site should be responsive and quick to load
-+ Porfessional and represents the company well(Needs Work completing the site)
++ Porfessional and represents the company well(Done)
 + Four different assets, Embedded video links, Pictures, graphics.(Done)
 + Navigation bar that adapts to window size/Device(Done)
 + Contact info(Not Ready)
@@ -77,3 +75,5 @@ In my opinion the creator could change the design of each pages so it is not the
 
 
 ### Evaluate
+
+The final version of the website will be visually pleasing to the eye(Different colors), it will have properly sized pictures so every picture size is consistent across all pages, the website works across all modern browsers(Firefox,Microsoft Edge and google chrome), and the mobile version of the site resizes to fix the devices screen size. The website is suitable for the intended audience as the website is easy to navigate and not visually cluttered, since the website is optimized to be mobile first users/visitors of the website will have a good experience while on a mobile device since users/visitors are most likely to be on a mobile device while shopping for mobile phones and accessories for their mobile devices. The website loads quickly including the content.Considering feedback from the client, every page is identical other than the brand and the content/media on the page. Comparing the inital design to the final product, there has been changes to make the site look cleaner as initally the site was only optimized for mobile devices and not for Desktops.
